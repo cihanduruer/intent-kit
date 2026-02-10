@@ -1,0 +1,45 @@
+{
+  "name": "intent-kit-vscode",
+  "displayName": "Intent Kit",
+  "description": "VS Code extension for intent-driven development guidance",
+  "version": "1.0.0",
+  "publisher": "intent-kit",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "intentKit.createIntent",
+        "title": "Intent Kit: Create New Intent"
+      },
+      {
+        "command": "intentKit.getRecommendation",
+        "title": "Intent Kit: Get Stack Recommendation"
+      },
+      {
+        "command": "intentKit.validateIntent",
+        "title": "Intent Kit: Validate Current Intent"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0"
+  }
+}

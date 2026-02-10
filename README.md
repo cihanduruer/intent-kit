@@ -74,6 +74,10 @@ npm test
 npm run lint
 ```
 
+## VS Code Extension
+
+A VS Code extension is included in the `vscode-extension/` directory. See [vscode-extension/README.md](vscode-extension/README.md) for details.
+
 ## License
 
 ISC
