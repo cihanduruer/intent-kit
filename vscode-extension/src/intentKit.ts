@@ -2,7 +2,10 @@
  * Intent Kit Core Types and Functions
  * 
  * This is a standalone copy of the intent-kit core functionality
- * for use within the VS Code extension.
+ * for use within the VS Code extension. This duplication is intentional
+ * to keep the extension self-contained and avoid complex bundling
+ * requirements. For production use, consider setting up a shared build
+ * process or importing the core library as a dependency.
  */
 
 /**
