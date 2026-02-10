@@ -1,0 +1,15 @@
+name: "real-time-chat-app"
+scale: "startup"
+requirements:
+  - "real-time messaging"
+  - "user authentication"
+  - "mobile-friendly interface"
+  - "database for message history"
+features:
+  - "typing indicators"
+  - "read receipts"
+  - "file sharing"
+constraints:
+  languages:
+    - "typescript"
+  budgetLevel: "moderate"

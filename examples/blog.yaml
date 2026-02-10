@@ -1,0 +1,8 @@
+name: "personal-blog"
+scale: "solo"
+requirements:
+  - "static site"
+  - "blog posts"
+  - "markdown support"
+constraints:
+  budgetLevel: "minimal"

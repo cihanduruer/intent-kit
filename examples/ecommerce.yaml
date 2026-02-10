@@ -1,0 +1,17 @@
+name: "e-commerce-platform"
+scale: "enterprise"
+requirements:
+  - "product catalog"
+  - "shopping cart"
+  - "payment processing"
+  - "order management"
+  - "admin dashboard"
+  - "real-time inventory"
+features:
+  - "search and filtering"
+  - "recommendations"
+  - "multi-vendor support"
+constraints:
+  platforms:
+    - "kubernetes"
+  budgetLevel: "flexible"
