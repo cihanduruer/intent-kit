@@ -245,12 +245,6 @@ CMD ["npm", "start"]
 `);
   }
   
-  /**
-   * Helper to generate technology stack description
-   */
-  private getStackTechDescription(): string {
-    return '';  // Handled in template rendering
-  }
   
   /**
    * Register a custom template

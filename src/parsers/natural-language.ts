@@ -1,4 +1,4 @@
-import { Intent, ScaleLevel } from '../core/intent';
+import { Intent, ScaleLevel, Constraints } from '../core/intent';
 
 /**
  * Natural language parser interface
@@ -117,8 +117,8 @@ export class NaturalLanguageParser {
   /**
    * Extract constraints from description
    */
-  private extractConstraints(text: string): any {
-    const constraints: any = {};
+  private extractConstraints(text: string): Partial<Constraints> {
+    const constraints: Partial<Constraints> = {};
     const lowerText = text.toLowerCase();
     
     // Detect language preferences
