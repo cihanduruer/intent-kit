@@ -1,10 +1,25 @@
 # Intent Kit
 
+**Stop writing specs. Start declaring intent.**
+
 A framework for intent-driven development guidance.
 
-> **Intent-Driven Development starts with *why* you're building, not *what* you're building.**
->
-> Unlike spec-driven development that begins with detailed technical specifications, intent-driven development captures your goals, scale, and constraints first—then guides you to the right architecture and technology choices. You describe your intent; the framework recommends how to achieve it.
+---
+
+## 🎯 What is Intent-Driven Development?
+
+**Intent-Driven Development flips the script on traditional software planning.** Instead of drowning in detailed specifications before writing a single line of code, you declare what you want to achieve—your *intent*—and let the framework guide your architectural decisions.
+
+| Spec-Driven Development | Intent-Driven Development |
+|------------------------|--------------------------|
+| "Here are 50 pages of requirements" | "I want to build X at Y scale" |
+| Rigid upfront planning | Adaptive guidance |
+| Technology-first thinking | Goal-first thinking |
+| Premature optimization | Right-sized architecture |
+
+**The result?** Less time in planning meetings, more time building. Architectures that match your actual scale. Technology choices that serve your goals, not the other way around.
+
+---
 
 ## Overview
 
