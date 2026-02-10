@@ -2,6 +2,10 @@
 
 A framework for intent-driven development guidance.
 
+> **Intent-Driven Development starts with *why* you're building, not *what* you're building.**
+>
+> Unlike spec-driven development that begins with detailed technical specifications, intent-driven development captures your goals, scale, and constraints first—then guides you to the right architecture and technology choices. You describe your intent; the framework recommends how to achieve it.
+
 ## Overview
 
 Intent Kit helps developers define their project intentions and receive appropriate architecture and technology stack recommendations based on project scale and requirements.
